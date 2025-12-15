@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <i class="fa-solid fa-couch"></i>
+                <span>Furnitures</span>
+            </a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto d-flex gap-5 my-2 my-lg-0 navbar-nav-scroll"
+                    style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">New Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero text-white d-flex align-items-center"
+        style="background: url('hero.jpg') center/cover no-repeat ; height: 80vh; width: 100%;">
+        <div class="container text-center">
+            <h1 class="display-3 fw-bold mb-3">Welcome to Furnitures</h1>
+            <p class="lead mb-4">High-quality, modern furniture to make your home perfect.</p>
+            <a href="#products" class="btn btn-primary btn-lg px-4 me-2">Shop Now</a>
+
+        </div>
+    </section>
+    <section>
+        <div class="product">
+            <div class="product-info">
+                <h3>High-quality modern chair perfect for your home.</h3>
+                <h3>
+                    Price: <span style="color:red; text-decoration: line-through;">$ 25,000.00</span>
+                    <span style="color: green; margin-left: 0.5rem;">$ 20,000.00</span>
+                </h3>
+                <button type="button" class="btn btn-primary btn-lg px-4 buy-btn">Buy Now</button>
+
+            </div>
+            <div class="product-img">
+                <img src="product.jpg" alt="product1">
+            </div>
+
+        </div>
+    </section>
+    <section class="section">
+        <h2 class="more-product">More Products</h2>
+        <div class="product-row">
+
+            <div class="product-card">
+                <img src="product1.jpg" alt="">
+                <h5>Modern Chair</h5>
+                <p>$ 20,000</p>
+            </div>
+
+            <div class="product-card">
+                <img src="product2.jpg" alt="">
+                <h5>Wooden Table</h5>
+                <p>$ 35,000</p>
+            </div>
+
+            <div class="product-card">
+                <img src="product3.jpg" alt="">
+                <h5>Sofa Set</h5>
+                <p>$ 50,000</p>
+            </div>
+
+            <div class="product-card">
+                <img src="product4.jpg" alt="">
+                <h5>Bed</h5>
+                <p>$ 60,000</p>
+            </div>
+
+            <div class="product-card">
+                <img src="product5.jpg" alt="">
+                <h5>Wardrobe</h5>
+                <p>$ 70,000</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="section bg-light text-black text-center">
+        <div class="container my-5">
+            <h2 class="fw-bold mb-3">Upgrade Your Home Today</h2>
+            <p class="mb-4">Discover premium furniture designed for comfort and style.</p>
+            <a href="#" class="btn btn-success btn-lg px-5">Shop Now</a>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-3 mt-4">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
+            <span>© 2025 Company, Inc</span>
+
+            <ul class="nav list-unstyled d-flex mb-0">
+                <li class="ms-3">
+                    <a class="text-white" href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-white" href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
